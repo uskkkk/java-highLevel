@@ -12,16 +12,15 @@
 ## 목차
 | 구분 | 주제 | 정리 |
 |---|---|---|
-| 1 | 프로세스와 스레드 소개 (멀티태스킹, 멀티프로세싱, 스케줄링, CPU/I/O 바운드) | [정리 보기](java-highLevel-1/README.md) |
-| 2 | 스레드 생성과 실행 | 예정 |
-| 3 | 스레드 제어와 생명 주기 | [정리 보기](java-highLevel-2/README.md) |
-| 4 | 메모리 가시성 (`volatile`) | 예정 |
-| 5 | 동기화 (`synchronized`) | 예정 |
-| 6 | 고급 동기화 (`LockSupport`, `ReentrantLock`) | 예정 |
-| 7 | 생산자 소비자 문제 | 예정 |
-| 8 | CAS와 원자적 연산 | 예정 |
-| 9 | 동시성 컬렉션 | 예정 |
-| 10 | 스레드 풀과 Executor 프레임워크 | 예정 |
+| 1 | 프로세스와 스레드 소개 (멀티태스킹, 멀티프로세싱, 스케줄링, CPU/I/O 바운드) & 스레드 생성과 실행 | [정리 보기](java-highLevel-1/README.md) |
+| 2 | 스레드 제어와 생명 주기 | [정리 보기](java-highLevel-2/README.md) |
+| 3 | 메모리 가시성 (`volatile`) | 예정 |
+| 4 | 동기화 (`synchronized`) | 예정 |
+| 5 | 고급 동기화 (`LockSupport`, `ReentrantLock`) | 예정 |
+| 6 | 생산자 소비자 문제 | 예정 |
+| 7 | CAS와 원자적 연산 | 예정 |
+| 8 | 동시성 컬렉션 | 예정 |
+| 9 | 스레드 풀과 Executor 프레임워크 | 예정 |
 
 ## 디렉토리 구조
 ```text
