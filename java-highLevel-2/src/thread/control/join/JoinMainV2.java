@@ -3,7 +3,7 @@ package thread.control.join;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
-public class JoinMainV1 {
+public class JoinMainV2 {
 
     public static void main(String[] args) {
         log("Start");
@@ -15,7 +15,12 @@ public class JoinMainV1 {
         thread1.start();
         thread2.start();
 
-//        sleep(3000); task1, task2의 주소값에 있는 result 값을 가져오기전에 main 스택이 먼저 끝나기 때문에 0을 반환해버린다.
+        log("main 스레드 sleep()");
+
+        sleep(3000);
+
+        log("main 스레드 깨어남");
+
         log("task1.result = " + task1.result);
         log("task2.result = " + task2.result);
 

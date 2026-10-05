@@ -3,7 +3,7 @@ package thread.control.join;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
-public class JoinMainV3 {
+public class JoinMainV4 {
 
     public static void main(String[] args) throws InterruptedException {
         log("Start");
@@ -16,9 +16,8 @@ public class JoinMainV3 {
         thread2.start();
 
 
-        log("join() - main 스레드가 thread1, thread2 종료까지 대기");
-        thread1.join();
-        thread2.join();
+        log("join() - main 스레드가 thread1 종료까지 1초 대기");
+        thread1.join(1000);
         log("main 스레드 대기 종료");
 
         log("task1.result = " + task1.result);
