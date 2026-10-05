@@ -14,7 +14,7 @@
 |---|---|---|
 | 1 | 프로세스와 스레드 소개 (멀티태스킹, 멀티프로세싱, 스케줄링, CPU/I/O 바운드) | [정리 보기](java-highLevel-1/README.md) |
 | 2 | 스레드 생성과 실행 | 예정 |
-| 3 | 스레드 제어와 생명 주기 | 예정 |
+| 3 | 스레드 제어와 생명 주기 | [정리 보기](java-highLevel-2/README.md) |
 | 4 | 메모리 가시성 (`volatile`) | 예정 |
 | 5 | 동기화 (`synchronized`) | 예정 |
 | 6 | 고급 동기화 (`LockSupport`, `ReentrantLock`) | 예정 |
@@ -30,7 +30,9 @@ java-highLevel/
 ├── java-highLevel-1/       # 1번 모듈
 │   ├── README.md           # 섹션별 상세 정리
 │   └── src/                # 실습 코드
-├── java-highLevel-2/       # (예정)
+├── java-highLevel-2/       # 2번 모듈
+│   ├── README.md           # 섹션별 상세 정리
+│   └── src/                # 실습 코드
 ├── java-highLevel-3/       # (예정)
 └── java-highLevel-4/       # (예정)
 ```
